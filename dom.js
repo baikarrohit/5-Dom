@@ -25,6 +25,13 @@
 
 // header.style.borderBottom = 'solid 4px #000';
 
-var Title = document.getElementsByClassName('title');
-Title[0].style.fontWeight = 'bold';
-Title[0].style.color = 'green';
+// var Title = document.getElementsByClassName('title');
+// Title[0].style.fontWeight = 'bold';
+// Title[0].style.color = 'green';
+
+var item = document.getElementsByClassName('list-group-item');
+
+item[2].style.backgroundColor = "green";
+for(i=0; i<item.length; i++){
+    item[i].style.fontWeight = "bold";
+}
